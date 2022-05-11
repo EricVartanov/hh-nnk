@@ -495,10 +495,10 @@
         flex-direction: column;
     }
     .idc-pluse:nth-child(2) {
-        margin-top: 60px;
+        margin-top: 52px;
     }
     .idc-pluse:nth-child(3) {
-        margin-top: 44px;
+        margin-top: 52px;
     }
     .idc-pluse .idc-text-1 {
         width: 65%;
@@ -510,7 +510,7 @@
     .idc-pluse:nth-child(2)::before {
         top: unset;
         right: unset;
-        bottom: calc(100% + 25px);
+        bottom: calc(100% + 21px);
         -webkit-transform: rotate(90deg);
         -ms-transform: rotate(90deg);
         transform: rotate(90deg);
@@ -519,6 +519,7 @@
         width: 3.9vw;
         height: 2.9vw;
     }
+  
     .idc-pluses-block + .idc-text-1 {
         margin-top: 35px;
     }
